@@ -1,0 +1,19 @@
+# Local environment
+local.properties
+
+# Kotlin
+.kotlin
+
+# Gradle
+.gradle
+build
+.externalNativeBuild
+.cxx
+
+# IDE
+*.iml
+.idea
+captures
+
+# OS
+.DS_Store

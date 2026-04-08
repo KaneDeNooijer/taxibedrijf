@@ -1,8 +1,8 @@
 package me.kanedenooijer.taxibedrijf
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.textfield.TextInputLayout
 
@@ -13,11 +13,13 @@ class HomeActivity : AppCompatActivity() {
 
         val licensePlateInput = findViewById<TextInputLayout>(R.id.license_plate_input)
         val licensePlateButton = findViewById<Button>(R.id.license_plate_button)
-        val licensePlateDisplay = findViewById<TextView>(R.id.license_plate_display)
+//        val licensePlateDisplay = findViewById<TextView>(R.id.license_plate_display)
 
         licensePlateButton.setOnClickListener {
             val licensePlate = licensePlateInput.editText?.text.toString()
-            licensePlateDisplay.text = licensePlate
+            val intent = Intent(this, ResultActivity::class.java)
+            intent.putExtra("LICENSE_PLATE", licensePlate)
+            startActivity(intent)
         }
     }
 }

@@ -40,11 +40,6 @@
                 android:text="Zoeken" />
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/license_plate_display"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

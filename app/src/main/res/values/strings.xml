@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">Taxibedrijf</string>
+    <string name="app_name">On The Road</string>
+    <string name="license_plate_hint">Filter kenteken (bijv. 12-ABC-3)</string>
+    <string name="filter_button">FILTER</string>
+    <string name="results_title">Resultaten:</string>
+    <string name="results_for">Resultaten voor: %1$s</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_details">Details</string>
+    <string name="vehicle_license_plate">Kenteken: %1$s</string>
+    <string name="vehicle_type">Voertuig: %1$s</string>
+    <string name="no_results_yet">Nog geen resultaten.</string>
+    <string name="no_vehicles_found">Geen voertuigen gevonden.</string>
+    <string name="vehicle_data_error">Kon voertuigdata niet ophalen: %1$s</string>
+    <string name="unknown_error">onbekende fout</string>
+    <string name="unknown_type">Type onbekend</string>
+    <string name="detail_data_title">Gegevens:</string>
+    <string name="empty_detail_message">Geen voertuig gevonden\n\nKies een voertuig\nop de hoofdpagina</string>
+    <string name="detail_brand">Merk</string>
+    <string name="detail_trade_name">Handelsbenaming</string>
+    <string name="detail_color">Kleur</string>
+    <string name="detail_second_color">Tweede kleur</string>
+    <string name="detail_body">Inrichting</string>
+    <string name="detail_seats">Aantal zitplaatsen</string>
+    <string name="detail_first_registration">Eerste toelating</string>
+    <string name="detail_apk_expiry">APK vervaldatum</string>
+    <string name="detail_row">%1$s: %2$s</string>
+    <string name="missing_value">-</string>
 </resources>
